@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans&family=Lato&family=Montserrat:wght@300;600&family=Open+Sans&family=Poppins:wght@400;700&family=Roboto:wght@700&display=swap');
+
+.poppins{
+    font-family: 'Poppins', sans-serif;
+}
+.montserrat{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right,#282cfc,#ff4684);
+}
+
+form{
+    width: 25rem;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    background: rgb(255,255,255,0.05);
+    box-shadow: 0px 5px 30px 0px rgba(31,38,135,.37);
+    border-radius: 0.50rem;
+    border-left: 2px solid rgba(255, 255, 255, 0.39);
+    border-top: 2px solid rgba(255, 255, 255, 0.39);
+}
+
+.form-h1{
+    font-size:2.50rem;
+    color: white;
+    text-shadow: 1px 1px 8px rgba(0,0,0,.3);
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-top: 3px;
+    margin-bottom:30px;
+    opacity:.60;
+
+}
+
+.form-lable{
+    font-size: 1.1rem;
+    color: white;
+    opacity:.70;
+    margin-left: 10%;
+    text-shadow: 1px 1px 8px rgba(0,0,0,.3);
+    cursor: pointer;
+}
+
+.form-input{
+    width:80%;
+    padding-bottom:10px;
+    margin:5% auto;
+    border: none;
+    outline:none;
+    background: transparent;
+    color:white;
+    border-bottom:2px solid rgba(245, 245, 245, 0.644);
+}
+
+.form-input:hover{
+    border-bottom:2px solid rgb(245, 245, 245);
+}
+.form-button{
+    width:40%;
+    margin:3% auto;
+    opacity: 80%;
+    color:rgb(205, 96, 255);
+    font-size: 1rem;
+    padding:0.50rem;
+    outline:none;
+    border: none;
+}
+.form-button:hover{
+    color:blue;
+}
+.form-signup{
+    margin:20px auto;
+    text-decoration: none;
+}
+
+.form-signup{
+    margin:20px auto;
+    text-decoration: none;
+}
+
+body{
+    scrollbar-color: rebeccapurple green;
+
+}
+
+
+
+
+
+

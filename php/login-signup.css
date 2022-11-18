@@ -1,0 +1,161 @@
+/* Fonts impoted from google */
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans&family=Lato&family=Montserrat:wght@300;600&family=Open+Sans&family=Poppins&family=Roboto:wght@700&display=swap');*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Encode Sans', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background-color: whitesmoke;
+}
+.logo img{
+    width:70px;
+    height:50px;
+    object-fit: cover;
+}
+.livebidlive{
+    display: flex;
+    align-items: center;
+    padding:20px;
+}
+.bid{
+    display: flex;
+    justify-content: center;
+}
+nav{
+    flex:1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+}
+nav ul li{
+    display: inline-block ;
+    margin:20px;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.container{
+    max-width:1300px;
+    margin:auto;
+    padding: 0px 25px 0px 25px;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    line-height: 60PX;
+    margin: 25PX 0PX;
+}
+.col-2 p{
+    color:rgb(105, 105, 105);
+    margin-top: 15px;
+    font-size: 20px;
+    line-height: 26px;
+    font-family: 'Poppins', sans-serif;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2{
+    flex-basis: 50%;
+    max-width: 900px;
+}
+
+.col-2 img{
+    width: 100%;
+    max-width: 100%;
+    padding:0px 0px;
+}
+
+iframe{
+    padding: 0px;
+    margin: 0px;
+}
+.b1{
+    display: inline-block;
+    background: #ff6804;
+    font-family: 'Poppins', sans-serif;
+    color:#fff;
+    padding: 8px 30px;
+    margin: 20px 0px 0px 0px;
+    border-radius: 30px;
+    font-size: 15px;
+    transition: 0.5s;
+    transition-timing-function: cubic-bezier(.19,1,.22,1);
+}
+.b1:hover{
+    padding: 8px 35px;
+    transition: 0.5s;
+    transition-timing-function: cubic-bezier(.19,1,.22,1);
+}
+.headers{
+    background-color: linear-gradient(green,white);
+    
+}
+.live-cat{
+    background-color: rgb(255, 255, 255);
+    margin: 0px 20px 0px 20px;
+}
+
+.live-cat img{
+    width: 100px;
+    height: 100px;
+    padding: 1px;
+    border: 1px solid rgb(170, 170, 255);
+}
+
+.logins{
+    display: flex;
+    justify-content: center;
+    margin-left: 350px;
+    position: relative;
+}
+.loginform{
+    position: absolute;
+    left: 30px;
+    top: 90px;
+    color: rgb(135, 103, 250);
+}
+
+input[type=text]{
+    padding: 8px;
+    width: 290px;
+    outline: none;
+}
+
+input[type=password]{
+    padding: 8px;
+    width: 290px;
+    outline: none;
+}
+
+p{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+form{
+    padding: 5px;
+}
+input[type=submit]{
+    color: rgb(255, 255, 255);
+    padding: 5px 20px 5px 20px;
+    border-radius: 20px;
+    background-image: linear-gradient(#ff6f95,#ffae82);
+    border: none;
+    margin-top: 20px;
+}
+
+.loginform a{
+    color: #e983df;
+}
+
